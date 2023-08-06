@@ -1,0 +1,28 @@
+/* Beautiful Button CSS */
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1351a0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #0b366b;
+  }
+  
+  /* Focus effect (for accessibility) */
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(19, 81, 160, 0.5);
+  }
+  

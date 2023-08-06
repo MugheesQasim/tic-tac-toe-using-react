@@ -1,0 +1,11 @@
+.grid-item{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    margin : 0.5px;
+    width: 200px;
+    height: 150px;
+    font-size: 120px;
+    color : white;
+    background-color: white;
+    line-height: 170px; /* Same as container height */
+}
