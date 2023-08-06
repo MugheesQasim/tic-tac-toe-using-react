@@ -10,13 +10,13 @@ const Board = () => {
 
     const takeTurn = () => {
         setTurn(turn === 'X' ? 'O' : 'X');
-        setSquareColor(squareColor === '#ff9203' ? '#01bfd5' : '#ff9203');
+        setSquareColor(squareColor === '#151515' ? '#F07900' : '#151515');
     }
 
     useEffect(() => {
         if (turn === null) {
             setTurn(turn === 'X' ? 'O' : 'X');
-            setSquareColor(squareColor === '#ff9203' ? '#01bfd5' : '#ff9203');
+            setSquareColor(squareColor === '#151515' ? '#F07900' : '#151515');
         }
         if (checkWinner())
             setIsGameFinished(true);
